@@ -1,0 +1,22 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Lothbrok.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  Discord.cpp
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  Class.cpp
+  Settings.cpp
+C:\Users\Administrator\Desktop\RPC\Lothbrok\Discord.cpp(33,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\RPC\Lothbrok\Discord.cpp(34,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\RPC\Lothbrok\Discord.cpp(35,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+Discord.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+Discord.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  discord_rpc_d.lib(discord_rpc.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     Creating library C:\Users\Administrator\Desktop\RPC\Debug\LastRPC.lib and object C:\Users\Administrator\Desktop\RPC\Debug\LastRPC.exp
+  Generating code
+  Finished generating code
+discord_rpc_d.lib(discord_rpc.obj) : warning LNK4099: PDB '' was not found with 'discord_rpc_d.lib(discord_rpc.obj)' or at ''; linking object as if no debug info
+discord_rpc_d.lib(connection_win.obj) : warning LNK4099: PDB '' was not found with 'discord_rpc_d.lib(connection_win.obj)' or at ''; linking object as if no debug info
+discord_rpc_d.lib(serialization.obj) : warning LNK4099: PDB '' was not found with 'discord_rpc_d.lib(serialization.obj)' or at ''; linking object as if no debug info
+discord_rpc_d.lib(rpc_connection.obj) : warning LNK4099: PDB '' was not found with 'discord_rpc_d.lib(rpc_connection.obj)' or at ''; linking object as if no debug info
+discord_rpc_d.lib(discord_register_win.obj) : warning LNK4099: PDB '' was not found with 'discord_rpc_d.lib(discord_register_win.obj)' or at ''; linking object as if no debug info
+  Lothbrok.vcxproj -> C:\Users\Administrator\Desktop\RPC\Debug\LastRPC.dll

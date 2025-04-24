@@ -1,0 +1,4 @@
+// -- Discord Rpc -- //
+void Discord();
+
+
